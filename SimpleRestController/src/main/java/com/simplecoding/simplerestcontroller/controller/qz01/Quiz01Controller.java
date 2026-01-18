@@ -7,6 +7,7 @@ import com.simplecoding.simplerestcontroller.common.ApiResponse;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -15,7 +16,7 @@ import java.util.List;
  * @author simple-coding
  *
  */
-@Controller
+@RestController
 public class Quiz01Controller {
     //	퀴즈 예제 1
     @GetMapping("/qz01/quiz01")
